@@ -1,0 +1,14 @@
+1. Pourquoi utiliser un tableau plutôt que $etudiant1, $etudiant2, etc. ?
+Un tableau regroupe plusieurs valeurs dans une seule variable. On peut le parcourir avec une boucle, ajouter ou supprimer des éléments, et le code reste le même quel que soit le nombre d'étudiants.
+
+2. Quelle différence entre $etudiants[0] et $etudiant["nom"] ?
+$etudiants[0] accède à un élément par son indice numérique (tableau indexé). $etudiant["nom"] accède à une valeur par sa clé (tableau associatif).
+
+3. Pourquoi une fonction améliore-t-elle la réutilisation du code ?
+On écrit le traitement une seule fois et on l'appelle autant de fois que nécessaire avec des paramètres différents. Cela évite la répétition et facilite la maintenance.
+
+4. Quelle différence entre echo et return ?
+echo affiche directement une valeur. return renvoie une valeur à l'appelant, qui peut la stocker ou l'utiliser dans un calcul, sans l'afficher.
+
+5. Pourquoi séparer les fonctions dans un fichier ?
+Pour organiser le code, le réutiliser dans plusieurs pages avec require_once, et éviter la duplication.
