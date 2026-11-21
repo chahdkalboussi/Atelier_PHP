@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; max-width: 800px; margin: 30px auto; padding: 0 15px; }
+nav a { margin-right: 15px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #999; padding: 6px 10px; text-align: left; }
+th { background: #eee; }
+.erreur { color: #b00020; }
+.fiche { border: 2px solid #333; padding: 10px 20px; margin-top: 20px; }
+label { display: block; margin-top: 8px; }
