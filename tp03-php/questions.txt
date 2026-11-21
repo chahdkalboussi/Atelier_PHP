@@ -1,0 +1,28 @@
+TP3 - Réponses aux questions (Activité 14)
+
+1. Quelle est la différence entre GET et POST ?
+GET envoie les données dans l'URL. POST les envoie cachées, dans le corps de la requête.
+
+2. Dans quel cas utiliser GET ?
+Pour une recherche. On peut partager le lien et rien n'est modifié.
+
+3. Dans quel cas utiliser POST ?
+Pour envoyer des données : inscription, ajout d'un étudiant, mot de passe.
+
+4. Pourquoi vérifier isset() ou empty() ?
+Pour éviter une erreur si le champ n'existe pas, et pour voir si le champ est vide.
+
+5. Pourquoi valider les données reçues par le serveur ?
+Pour être sûr qu'elles sont correctes avant de les utiliser.
+
+6. Pourquoi ne pas faire confiance au navigateur ?
+Parce que l'utilisateur peut modifier les données avant de les envoyer.
+
+7. Quel est le rôle de htmlspecialchars() ?
+Elle transforme les caractères comme < et > en texte simple. Cela empêche d'injecter du code dans la page.
+
+8. Quelle différence entre validation et affichage sécurisé ?
+La validation vérifie que la donnée est correcte. L'affichage sécurisé protège la page quand on affiche la donnée.
+
+9. Pourquoi séparer les fonctions dans fonctions.php ?
+Pour réutiliser le code dans plusieurs pages et ne pas le répéter.
